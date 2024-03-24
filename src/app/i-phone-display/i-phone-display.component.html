@@ -1,0 +1,37 @@
+<div class="product-container">
+  <img [src]="imageUrl" alt="iPhone" class="product-image">
+
+  <div class="product-details">
+    <h2>{{ selectedModel }}</h2>
+    <p>{{ selectedColorName }}</p>
+  </div>
+
+  <div class="color-options">
+    <button class="color-option" (click)="changeColor('6', '6.1” iPhone 15 in five colors')" [ngStyle]="{'background-image': 'conic-gradient(
+      #EBD0D2 0%, 
+    #F9E2C4 15%, 
+    #F9E2C4 35%, 
+    #FFFAD5 35%, 
+    #FFFAD5 55%,
+    #BFD8D2 55%, 
+    #BFD8D2 75%, 
+    #5D5C61 75%,
+    #5D5C61 100%
+    )'}"></button>
+    <button class="color-option" (click)="changeColor('pink', 
+    '6.7” iPhone 15 Plus2 and
+    6.1” iPhone 15 in Pink')" [ngStyle]="{'background-color': '#EBD0D2'}"></button>
+    <button class="color-option" (click)="changeColor('black', 
+    '6.7” iPhone 15 Plus2 and
+    6.1” iPhone 15 in Black')" [ngStyle]="{'background-color': ' #3C4042'}"></button>
+    <button class="color-option" (click)="changeColor('green', 
+    '6.7” iPhone 15 Plus2 and
+    6.1” iPhone 15 in Green' )" [ngStyle]="{'background-color': ' #CFD9C9'}"></button>
+    <button class="color-option" (click)="changeColor('blue', 
+    '6.7” iPhone 15 Plus2 and
+    6.1” iPhone 15 in Blue')" [ngStyle]="{'background-color': ' #D5DDE0'}"></button>
+    <button class="color-option" (click)="changeColor('yellow', 
+    '6.7” iPhone 15 Plus2 and
+    6.1” iPhone 15 in Yellow')" [ngStyle]="{'background-color': '#ECE6C6'}"></button>
+  </div>
+</div>
